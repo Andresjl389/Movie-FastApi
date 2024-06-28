@@ -13,10 +13,10 @@ class Movie(BaseModel):
     class Config:
             json_schema_extra = {
                 "example":{
-                    "id":1,
+                    "id":1000,
                     "title":"Mi película",
                     "overview":"Descrición de la película",
-                    "year":2022,
+                    "year":2024,
                     "rating":9.8,
                     "category":"Acción"
                 

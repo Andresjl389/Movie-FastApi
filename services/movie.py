@@ -13,6 +13,8 @@ class MovieService():
 
     def get_movies_id(self, id):
         result = self.db.query(MovieModel).filter(MovieModel.id == id).first()
+        print('DESDE EL SERVICE')
+        print(result)
         return result
     
     def get_category(self, category):
